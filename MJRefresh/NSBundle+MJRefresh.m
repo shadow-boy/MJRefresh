@@ -51,6 +51,8 @@
         } else {
             language = @"en";
         }
+        //修改为只显示英文
+        language = @"en";
         
         // 从MJRefresh.bundle中查找资源
         bundle = [NSBundle bundleWithPath:[[NSBundle mj_refreshBundle] pathForResource:language ofType:@"lproj"]];
